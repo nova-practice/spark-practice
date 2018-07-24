@@ -36,3 +36,9 @@ JavaSparkContext sc = new JavaSparkContext(spark.sparkContext());
 ```
 
 [Spark之SparkSession](https://blog.csdn.net/u012430664/article/details/58055457)
+
+### spark 环境配置
+```
+export SPARK_HOME=/opt/spark/spark-2.3.0-bin-hadoop2.6
+export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME
+```
